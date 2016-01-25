@@ -8,9 +8,6 @@ import PostIndex from './components/posts_index'
 export default (
   <Route path="/" component={App}>
     <IndexRoute component={PostIndex} />
-    <Route  path="greet" component={Greeting} />
-    <Route  path="greet2" component={Greeting} />
-    <Route  path="greet3" component={Greeting} />
   </Route>
 );
 
