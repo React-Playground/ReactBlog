@@ -10,6 +10,7 @@ class PostIndex extends Component {
   }
 
   render() {
+    console.log(this.props);
     return (
       <div>
         <div className="text-xs-right">
@@ -17,9 +18,8 @@ class PostIndex extends Component {
             Add Post
           </Link>
         </div>
-        
-
-      List of blog posts</div>
+        List of blog posts
+        </div>
     );
   }
 }
