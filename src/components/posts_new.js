@@ -8,6 +8,7 @@ class PostsNew extends Component {
     router: React.PropTypes.object
   };
   //go get and find my router
+  //get it from parent component
 
   onSubmit(props){
     this.props.createPost(props)
